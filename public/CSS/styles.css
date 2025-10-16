@@ -1,0 +1,40 @@
+h1{
+    color: #ff0095;
+    margin-left: 50px
+}
+
+p {
+    font-size: 25px
+}
+
+div.buttons{
+    width: 300px;
+    height: 200px;
+    border-style: solid dotted double;
+    border-width: thin medium thick;
+}
+
+button{
+    display:inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #00d9ff;
+    background-color: black;
+    border: none;
+    border-radius: 15;
+    box-shadow: 0 9px white
+}
+
+.button:hover {
+    background-color:aquamarine
+}
+
+.button:active{
+    background-color: aqua;
+    box-shadow: 0 5px goldenrod;
+    transform : translate(4px)
+}
